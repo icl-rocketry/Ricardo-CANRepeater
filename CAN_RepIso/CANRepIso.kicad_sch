@@ -2333,7 +2333,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 15.24 88.9 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c03374e9-87ea-401d-8ec8-f0596c74ecdf)
-    (property "Reference" "J1" (id 0) (at 16.51 74.93 0))
+    (property "Reference" "RBUS1" (id 0) (at 16.51 74.93 0))
     (property "Value" "RBUS_IN" (id 1) (at 16.51 77.4669 0))
     (property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" (id 2) (at 15.24 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2367,7 +2367,7 @@
   (symbol (lib_id "Connector:Conn_01x06_Female") (at 273.05 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c2860ad5-8d7f-4d2b-b32e-981e245ea210)
-    (property "Reference" "J2" (id 0) (at 273.7612 89.3353 0)
+    (property "Reference" "RBUS2" (id 0) (at 273.7612 89.3353 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "RBUS_OUT" (id 1) (at 273.7612 91.8722 0)
@@ -2828,12 +2828,6 @@
     (path "/20f2daa3-c46d-4c09-9fca-826de77db91e"
       (reference "H4") (unit 1) (value "MountingHole_Pad") (footprint "MountingHole:MountingHole_3.2mm_M3_DIN965_Pad")
     )
-    (path "/c03374e9-87ea-401d-8ec8-f0596c74ecdf"
-      (reference "J1") (unit 1) (value "RBUS_IN") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
-    )
-    (path "/c2860ad5-8d7f-4d2b-b32e-981e245ea210"
-      (reference "J2") (unit 1) (value "RBUS_OUT") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
-    )
     (path "/8c5f9924-03c7-4523-a937-f68d2c72927e"
       (reference "R1") (unit 1) (value "60") (footprint "Resistor_SMD:R_0805_2012Metric")
     )
@@ -2857,6 +2851,12 @@
     )
     (path "/064551d8-cdc6-4bdc-927e-17ec5c5b634c/9413e9e0-869f-44b6-98e1-66625847bd66"
       (reference "R12") (unit 1) (value "4.42k") (footprint "Resistor_SMD:R_0603_1608Metric")
+    )
+    (path "/c03374e9-87ea-401d-8ec8-f0596c74ecdf"
+      (reference "RBUS1") (unit 1) (value "RBUS_IN") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
+    )
+    (path "/c2860ad5-8d7f-4d2b-b32e-981e245ea210"
+      (reference "RBUS2") (unit 1) (value "RBUS_OUT") (footprint "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical")
     )
     (path "/7bfbc94b-8040-4dbe-92b6-07448d6dccf3"
       (reference "TP1") (unit 1) (value "TestPoint") (footprint "TestPoint:TestPoint_Pad_D1.5mm")
