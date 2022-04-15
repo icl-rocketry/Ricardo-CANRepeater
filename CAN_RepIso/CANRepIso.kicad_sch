@@ -2897,8 +2897,8 @@
     (path "/064551d8-cdc6-4bdc-927e-17ec5c5b634c/9fa0a5d9-7aee-4e03-85e9-25719800b2c6"
       (reference "U3") (unit 1) (value "SN74LVC2G07DBVR") (footprint "iclr:SOT95P280X145-6N")
     )
-    (path "/064551d8-cdc6-4bdc-927e-17ec5c5b634c/c6dfa6ae-efcc-4f0d-b265-a01a41014f46"
-      (reference "U4") (unit 1) (value "SN74LVC2G07DBVR") (footprint "iclr:SOT95P280X145-6N")
+    (path "/064551d8-cdc6-4bdc-927e-17ec5c5b634c/1bcbfa58-94d9-4973-9700-59776862f05f"
+      (reference "U4") (unit 1) (value "SN74LVC2G04DBVR") (footprint "SOT95P280X145-6N")
     )
     (path "/064551d8-cdc6-4bdc-927e-17ec5c5b634c/eda8505a-4f69-4a8e-ae10-0601ecae24be"
       (reference "U5") (unit 1) (value "SN74LVC2G132DCUR") (footprint "iclr:SOP50P310X90-8N")
