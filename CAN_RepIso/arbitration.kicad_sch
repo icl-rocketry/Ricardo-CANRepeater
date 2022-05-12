@@ -994,7 +994,7 @@
     (uuid 1bcbfa58-94d9-4973-9700-59776862f05f)
     (property "Reference" "U4" (id 0) (at 105.41 41.944 0))
     (property "Value" "SN74LVC2G04DBVR" (id 1) (at 105.41 44.4809 0))
-    (property "Footprint" "SOT95P280X145-6N" (id 2) (at 105.41 55.88 0)
+    (property "Footprint" "iclr:SOT95P280X145-6N" (id 2) (at 105.41 55.88 0)
       (effects (font (size 1.27 1.27)) (justify left bottom) hide)
     )
     (property "Datasheet" "" (id 3) (at 105.41 55.88 0)
